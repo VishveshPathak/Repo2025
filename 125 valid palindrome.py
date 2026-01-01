@@ -54,6 +54,7 @@ class Solution:
             
             
 #solution 3: in C to avoid calling ord function.
+"""
 bool isPalindrome(char* s) {
     int x = 0;
     char c;
@@ -96,3 +97,4 @@ bool isPalindrome(char* s) {
     }
     return true;   
 }
+"""
