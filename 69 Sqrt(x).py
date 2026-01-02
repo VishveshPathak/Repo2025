@@ -17,3 +17,8 @@ class Solution:
         while i*i>x:
             i = i-1
         return i
+    
+#superfast solution: not allowed by the compiler
+class Solution:
+    def mySqrt(self, x: int) -> int:
+        return math.floor(math.sqrt(x))
