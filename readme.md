@@ -4,4 +4,4 @@ Rules:<br>
 -no Copy <br>
 -no inbuilt library abuse <br>
 -only syntax/semantics search allowed <br>
--write solution which is possible without python <br>
+-try to write solution which is possible without python <br>
