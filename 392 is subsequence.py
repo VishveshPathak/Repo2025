@@ -29,4 +29,24 @@ class Solution:
             if s[i] == t[x]:
                 x = x+1
         return False
+    
+    #solution: len(t) == 1 case unnecessary, still kind of terrible corner case management
+    class Solution:
+    def isSubsequence(self, s: str, t: str) -> bool:
+        i = 0
+        x = 0
+        temp = s
+        s = t
+        t = temp
+        if t == '':
+            return True
+        if s == '':
+            return False
+        for i in range(len(s)):
+            if x == len(t)-1 and s[i]==t[x]:
+                return True
+            if s[i] == t[x]:
+                x = x+1
+        return False
+        
         
